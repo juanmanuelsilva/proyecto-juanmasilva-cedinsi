@@ -86,6 +86,17 @@ button a {
     float: right;
 }
 
+form {
+    text-align: center;
+}
+
+textarea {
+    max-width: 90%;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+
 footer {
     margin: 30px 0;
 }
