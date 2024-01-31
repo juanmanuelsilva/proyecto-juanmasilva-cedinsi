@@ -1,6 +1,6 @@
 'use strict'
 
-/**
+/** EJERCICIO 4
  * Realizar el algoritmo que calcule el valor a pagar por algunos galones de gasolina si sabemos que cada centilitro cuesta 25 pesos. Imprimir el valor a pagar y la cantidad de gasolina despachada en litros
  */
 
