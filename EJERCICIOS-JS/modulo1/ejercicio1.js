@@ -1,6 +1,11 @@
-// EJERCICIOS MODULO 1
+// EJERCICIO  1
+/**
+ * Realizar el algoritmo que convierta litros en centilitros, decilitros, galones y onzas
+ */
+'use strict';
 // Usuario elige la unidad de medida
 let unidadDeMedida = prompt("Elige la unidad a que quieres convertir tus litros: cl, dl, gal, oz");
+
 if ((unidadDeMedida === "cl") || (unidadDeMedida === "dl") || (unidadDeMedida === "gal") || (unidadDeMedida === "oz")) {
     // usuario ingresa cantidad de litros
     let cantidad = parseInt(prompt("Ingresa en números la cantidad de litros que quieres convertir ..."));

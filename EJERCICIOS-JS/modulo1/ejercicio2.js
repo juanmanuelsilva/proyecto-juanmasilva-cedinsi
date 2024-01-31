@@ -1,5 +1,5 @@
 /**Realizar el algoritmo que realice las 4 operaciones básicas para dos números de entrada. */
-
+'use strict';
 // Usuario elige la operación deseada
 let operacion = prompt("Elige la operacion que deseas ejecutar: suma, resta, multiplicacion, division");
 if ((operacion === "suma") || (operacion === "resta") || (operacion === "multiplicacion") || (operacion === "division")) {
