@@ -148,3 +148,36 @@ tfoot td {
             rgba(0, 0, 0, 0.5));
     border: 3px solid rgb(131, 202, 241);
 }
+
+@media (max-width: 768px) {
+
+    /* Estilos para dispositivos móviles */
+    body {
+        font-size: 16px;
+    }
+
+    .imagen {
+        display: block;
+        width: 100%;
+    }
+
+    .top-home {
+        background-color: white;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .foto-home {
+        padding: 30px;
+        width: 100%;
+    }
+
+    .foto-home img {
+        width: 100%;
+    }
+
+    .info-home {
+        padding: 100px 50px;
+        width: 100%;
+    }
+}

@@ -36,34 +36,23 @@
                 <img src="imagenes/jms+tablet.png" alt="">
             </div>
             <div class="middle-home-right">
+                <img src="imagenes/icono-contacto.png" alt="" width="30px"> Contáctame por medio de éste formulario.
+                <br>
+                Te responderé a la mayor brevedad
 
-                <form action="">
-                    <p>
-                        <img src="imagenes/icono-contacto.png" alt="" width="30px"> Contáctame por medio de éste
-                        formulario. <br>
-                        Te responderé a la mayor brevedad
-                    </p>
-                    <p><label for="">Nombre: </label>
-                        <input type="text" placeholder="Escribe tu nombre">
-                    </p>
-                    <p> <label for="">Teléfono: </label>
-                        <input type="text" placeholder="Escribe tu número">
-                    </p>
-                    <p><label for="">Indica el motivo de tu interés: </label><br>
-                        <select name="" id="">
-                            <option value="asesoria">Asesoría</option>
-                            <option value="consultoria">Consultoria</option>
-                            <option value="proyecto">Proyecto</option>
-                            <option value="oferta">Oferta de trabajo</option>
-                        </select>
-                    </p>
-                    <p>
-                        <label for="">Detalles de tu consulta</label>
-                        <textarea name="" id="" cols="40" rows="10" maxlength="100"></textarea>
-                        <button type="submit">Enviar información</button><br>
-                        <button type="clear">Limpiar info</button>
-                    </p>
+                <form id="formulario-contacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
                 </form>
+
             </div>
         </div>
         <div class="middle-home-full">
@@ -94,6 +83,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
+    <script src="validacion.js"></script>
 </body>
 
 </html>
