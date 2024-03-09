@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Portafolio Profesional Juan Manuel Silva - Usuarios</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon-32x32.png">
+</head>
+
+<body>
+    <span id="arriba"></span>
+
+    <!--NAV BAR-->
+    <div id="nav-placeholder"></div>
+
+
+    <h1>Zona de usuarios</h1>
+    <h2>Formulario de Acceso para usuarios</h2>
+    <section class="container">
+        <div class="middle-home-full">
+            <img src="imagenes/icono-contacto.png" alt="" width="30px">
+            Bienvenid@ a la Zona de Usuarios.
+            <br><br><br>
+            Ingresa tus credenciales de acceso
+
+            <form id="login" onsubmit="envioDeFormulario(event)">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" placeholder="Digite Usuario" required>
+                <br>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Digite Contraseña" required>
+                <div id="error" class="error">
+                    <p>Error en autenticación</p>
+                </div>
+                <div id="autenticacionOk" class="autenticacionOk">
+                    <p>Autenticación exitosa</p>
+                </div>
+                <br>
+                <button type="submit">Iniciar sesión</button>
+                <button type="reset">Limpiar formulario</button>
+            </form>
+
+        </div>
+        </div>
+    </section>
+    <div class="flecha-arriba">
+        <a href="#arriba"><img src="imagenes/flecha-arriba.png" width="40px" alt=""> Ir arriba</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="navbar.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

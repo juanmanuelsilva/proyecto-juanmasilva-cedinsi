@@ -116,6 +116,26 @@ footer {
     text-decoration: none;
 }
 
+.error {
+    display: none;
+}
+
+.mostrarMensaje {
+    display: block;
+    color: red;
+    font-size: 25px;
+}
+
+.autenticacionOk {
+    display: none;
+}
+
+.mostrarAutenticacion {
+    display: block;
+    color: green;
+    font-size: 25px;
+}
+
 table {
     /*table-layout: fixed;*/
     width: 100%;

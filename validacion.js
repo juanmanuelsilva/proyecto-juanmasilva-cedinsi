@@ -1,4 +1,4 @@
-'use-strict'
+'use-strict';
 
 class FormularioContacto {
     constructor(nombre, email, mensaje) {
