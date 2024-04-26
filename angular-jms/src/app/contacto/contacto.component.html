@@ -1,0 +1,20 @@
+<section class="container">
+  <form #miFormulario="ngForm" (ngSubmit)="enviar">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="name" [(ngModel)]="usuario.nombre" required
+        [ngModelOptions]="{standalone:true}">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" [(ngModel)]="usuario.email" required
+        [ngModelOptions]="{standalone:true}">
+    </div>
+    <div class="mb-3">
+      <label for="msg" class="form-label">Mensaje</label>
+      <textarea class="form-control" name="msg" id="msg" cols="30" rows="10" [(ngModel)]="usuario.msg" required
+        [ngModelOptions]="{standalone:true}"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</section>
